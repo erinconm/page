@@ -1,0 +1,12 @@
+.DS_Store
+_site/**
+.sass-cache
+.jekyll-metadata
+vendor/
+Gemfile.lock
+.bundle/
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+Gemfile
