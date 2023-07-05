@@ -17,6 +17,16 @@ timezone: America/Caracas
 menu:
   - name: Home
     url: /page/
+  - name: Entérate
+    url: /page/enterate/
+  - name: Opinión
+    url: /page/opinion/
+  - name: Rutas
+    url: /page/rutas/
+  - name: Destinos
+    url: /page/destinos/
+  - name: Directorio
+    url: /page/directorio/
   - name: Acerca
     url: /page/acerca/
   - name: Contacto
@@ -93,6 +103,18 @@ plugins:
 
 paginate: 10
 paginate_path: "/page/:num"
+
+collections:
+  enterate:
+    output: true
+  opinion:
+    output: true
+  rutas:
+    output: true
+  destinos:
+    output: true
+  directorio:
+    output: true
 
 # Pages Path
 defaults:
