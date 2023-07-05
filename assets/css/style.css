@@ -335,7 +335,7 @@ a:hover, a.text-dark:hover {
 }
 
 .bg-secondary {
-  background: #fdefe6 !important;
+  background: #ffffff !important;
 }
 
 .text-primary {
@@ -847,6 +847,10 @@ blockquote {
 
 .tag-list li a:hover {
   color: #ff6f00;
+}
+
+.img-logo {
+  width: 150px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

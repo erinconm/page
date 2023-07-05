@@ -4,20 +4,23 @@
 baseurl: "/page" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
-title: Parsa | Portfolio Jekyll Template
-logo: /assets/images/logo.png # You can add own logo
+title: Boarding Pass
+logo: /assets/images/logo-bp.jpg
+logo-small: /assets/images/boton-bp.jpg
 description: # Add your awesome description
 copyright: Copyright 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
 # Preloader
 preloader: true # To disable preloader change value to false
 
+timezone: America/Caracas
+
 menu:
   - name: Home
     url: /
-  - name: About
-    url: /about/
-  - name: Contact
-    url: /contact/
+  - name: Acerca
+    url: /acerca/
+  - name: Contacto
+    url: /contacto/
 
 # *** NOTE ***
 # You can add submenus. For example:
