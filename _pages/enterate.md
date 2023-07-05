@@ -1,14 +1,41 @@
 ---
 layout: page
-title: Enterate
+title: Entérate
 permalink: /enterate/
 ---
 
 <!-- blog post -->
 <section class="section">
   <div class="container">
+    <div class="row masonry-container">
+			  {% for post in site.enterate reversed %}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+					<img class="img-fluid mb-4" src="{{post.image | relative_url}}" alt="{{post.title}}">
+					{% for category in post.categories %}
+          <a class="d-block mb-3 text-dark text-uppercase" href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
+     {% endfor %}
+          <h4 class="title-border"><a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h4>
+          <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+			{% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /blog post -->
+
+<!-- blog post -->
+<section class="section">
+  <div class="container">
     <div class="row">
       {% for post in site.enterate reversed %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% if thecycle == 'odd' %}
+      {% assign class = '' %}
+      {% else %}
+      {% assign class = 'article-right' %}
       <div class="col-12 mb-100">
         <article data-file="{{ post.url | prepend: site.baseurl }}" data-target="article" class="article-full-width {{class}}">
           <div class="post-image">
@@ -25,6 +52,7 @@ permalink: /enterate/
           </div>
         </article>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
