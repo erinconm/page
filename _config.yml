@@ -16,11 +16,11 @@ timezone: America/Caracas
 
 menu:
   - name: Home
-    url: /
+    url: /page/
   - name: Acerca
-    url: /acerca/
+    url: /page/acerca/
   - name: Contacto
-    url: /contacto/
+    url: /page/contacto/
 
 # *** NOTE ***
 # You can add submenus. For example:
@@ -51,14 +51,14 @@ author:
 #-------------------------------
 # Contact Info
 contact:
-  email: example@ymail.com
+  email: contacto@boardingpass.network
   phone: +90 000 333 22
   address:
-    city: Sydney
+    city: Caracas
     street: 6 rip carl Avenue CA 90733
 
 # Contact Form
-contact-form: example@email.com
+contact-form: contacto@boardingpass.network
 
 # Social links
 social:
