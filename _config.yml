@@ -144,3 +144,72 @@ exclude:
   - Gemfile.lock
   - vendor
   - ".gitignore"
+
+
+
+prose:
+  ignore: [
+    '_layouts',
+    '_includes',
+    '_data',
+    '_site',
+    '.sass-cache',
+    '_config.yml',
+    '.gitignore',
+    '404.html',
+    'index.html',
+    'assets',
+    'CNAME',
+    'robots.txt'
+  ]
+  siteurl: "https://boardingpass.network/page/"
+  media: 'assets/images/contenido'
+  metadata:
+    _destinos:
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: title
+        field:
+          element: text
+          label: Ingresa el título la publicación
+          type: text
+      - name: date
+        field:
+          element: text
+          label: Fecha de la publicación
+          value: CURRENT_DATETIME
+      - name: description
+        field:
+          element: text
+          label: Ingresa el título la publicación
+          type: text
+      - name: featured
+        field:
+          element: checkbox
+          label: Publicación resaltada
+          help: Puedes destacar la pubblicación en la página principal
+          value: false
+      - name: image
+        field: 
+          element: text
+          label: Indica la ruta de la imagen de la publicación
+          value: ""
+      - name: categories
+        field:
+          element: multiselect
+          label: Escoja la(s) etiqueta(s) de su publicación
+          help: Puede escojer una o mas etiquetas
+          options:
+            - name: 'Destinos'
+              value: 'destino'
+            - name: 'Directorio'
+              value: 'directorio'
+            - name: 'Entérate'
+              value: 'enterate'
+            - name: 'Opinión'
+              value: 'opinion'
+            - name: 'Rutas'
+              value: 'ruta'
+          alterable: false
