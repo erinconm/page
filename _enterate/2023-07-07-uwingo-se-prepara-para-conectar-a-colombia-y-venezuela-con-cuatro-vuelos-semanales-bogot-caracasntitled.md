@@ -6,11 +6,12 @@ categories: ruta
 published: true
 title: >-
   Wingo se prepara para conectar a Colombia y Venezuela con cuatro vuelos
-  semanales Bogotá-Caracasntitled
-image: 'https://www.viajesboletin.com/wp-content/uploads/2021/08/Wingoen-ALTA.jpg'
+  semanales Bogotá-Caracas
 description: >-
   Wingo se prepara para conectar a Colombia y Venezuela con cuatro vuelos
   semanales Bogotá-Caracas
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/wingo.png
 ---
 Wingo, una de las compañías aéreas más importantes de Colombia, ha anunciado su intención de expandirse hacia nuevos destinos nacionales y de comenzar a operar en Venezuela.
 
