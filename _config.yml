@@ -217,7 +217,7 @@ prose:
             - name: 'Rutas'
               value: 'ruta'
           alterable: false
-     _directorio:
+    _directorio:
       - name: layout
         field:
           element: hidden
