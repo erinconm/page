@@ -3,7 +3,7 @@ layout: post
 date: '2023-07-07 11:54 -0400'
 featured: true
 categories: enterate
-published: false
+published: true
 title: >-
   Booking lanza un nuevo planificador de viajes basado en inteligencia
   artificial
@@ -18,19 +18,19 @@ El Planificador de Viajes con IA ha sido construido, en primer lugar, sobre la b
 
 En segundo lugar, ha sido parcialmente impulsado por la tecnología de grandes modelos de lenguaje (LLM) de la API ChatGPT de OpenAI, para crear una nueva experiencia conversacional al momento que la gente comience su proceso de planificación de viajes.
 
-Una nueva forma de buscar y explorar en Booking.com
+**Una nueva forma de buscar y explorar en Booking.com**
 
 Los viajeros pueden hacerle al Planificador de Viajes con IA preguntas generales relacionadas con los viajes, así como consultas más específicas para ayudarles en cualquier fase del proceso de planificación de su viaje.
 
 Esto incluye la búsqueda de posibles destinos y opciones de alojamiento, proporcionando inspiración para el viaje basada en las necesidades y requisitos de cada viajero, así como también creando itinerarios para una ciudad, país o región concretos.
 
-Recomendaciones de viaje más personalizadas y pertinentes
+**Recomendaciones de viaje más personalizadas y pertinentes**
 
 Los viajeros pueden chatear fácilmente con el piloto AI Trip Planner para describir lo que buscan en términos generales o específicos, hacer preguntas y refinar su búsqueda en tiempo real, con nuevas opciones que aparecen en cuestión de segundos.
 
 Desde buscar inspiración sobre opciones de destinos de playa románticos en el Caribe hasta centrarse en una lista específica de casas de vacaciones para una familia de cuatro miembros, con aire acondicionado y piscina, la IA Planificadora de Viajes hace recomendaciones de forma rápida y conversacional.
 
-Experiencia integrada de planificación de viajes
+**Experiencia integrada de planificación de viajes**
 
 El Planificador de Viajes con IA lleva el proceso de planificación de viajes un paso más allá, proporcionando a los viajeros una lista visual de destinos y propiedades, incluida la información de precios de Booking.com, con enlaces para ver más detalles.
 
