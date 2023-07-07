@@ -3,7 +3,7 @@ layout: post
 date: '2023-07-07 11:29 -0400'
 featured: true
 categories: enterate
-published: false
+published: true
 title: 'COPA AIRLINES INAUGURA NUEVA RUTA HACIA AUSTIN, TEXAS, ESTADOS UNIDOS'
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Austin.jpg
@@ -23,4 +23,3 @@ Austin, Texas, es una ciudad cosmopolita que ha destacado por ser el segundo mej
 El vuelo de Copa Airlines con destino a Austin opera con cuatro frecuencias semanales los lunes, miércoles, jueves, y sábados saliendo a las 09:18 a.m. de Panamá (hora local) y llegando al Aeropuerto Internacional de Austin-Bergstrom (AUS) a las 2:04 p.m. (hora local). El vuelo de regreso parte los mismos días desde Austin a las 3:34 p.m., llegando a Panamá a las 8:16 p.m. (hora local).
 
 Los pasajeros interesados en viajar desde o hacia la ciudad de Austin, pueden hacer sus reservaciones en www.copa.com, oficinas de venta y centro de atención de llamadas.
-
