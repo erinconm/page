@@ -153,6 +153,8 @@ prose:
     '_includes',
     '_data',
     '_site',
+    '_pages',
+    '_posts',
     '.sass-cache',
     '_config.yml',
     '.gitignore',
