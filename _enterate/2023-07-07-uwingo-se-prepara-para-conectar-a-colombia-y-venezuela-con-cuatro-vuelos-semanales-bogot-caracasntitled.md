@@ -5,7 +5,7 @@ featured: true
 categories: ruta
 published: false
 title: >-
-  UWingo se prepara para conectar a Colombia y Venezuela con cuatro vuelos
+  Wingo se prepara para conectar a Colombia y Venezuela con cuatro vuelos
   semanales Bogotá-Caracasntitled
 image: 'https://www.viajesboletin.com/wp-content/uploads/2021/08/Wingoen-ALTA.jpg'
 description: >-
