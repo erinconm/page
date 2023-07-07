@@ -10,7 +10,7 @@ title: >-
 description: >-
   Booking lanza un nuevo planificador de viajes basado en inteligencia
   artificial
-image: 'https://www.viajesboletin.com/wp-content/uploads/2023/06/bookingeIA.png'
+image: 'https://www.cronista.com/files/image/499/499650/63a9cd8e47df1.jpg'
 ---
 Booking.com ha anunciado el lanzamiento, en versión beta, de su nuevo Planificador de Viajes con IA. A partir del 28 de junio estará disponible en la aplicación de un grupo de viajeros estadounidenses Genius que han sido específicamente seleccionados.
 
