@@ -4,7 +4,7 @@ date: '2023-07-07 11:29 -0400'
 featured: true
 categories: enterate
 published: true
-title: 'COPA AIRLINES INAUGURA NUEVA RUTA HACIA AUSTIN, TEXAS, ESTADOS UNIDOS'
+title: Copa Airlines inaugura nueva ruta a Estados Unidos
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Austin.jpg
 description: 'COPA AIRLINES INAUGURA NUEVA RUTA HACIA AUSTIN, TEXAS, ESTADOS UNIDOS'
