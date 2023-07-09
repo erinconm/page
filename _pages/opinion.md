@@ -9,7 +9,7 @@ permalink: /opinion/
   <div class="container">
     <div class="row">
       {% for post in site.posts reversed %}
-      {% if post.categories contains 'ruta' %}
+      {% if post.categories contains 'opinion' %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
       {% if thecycle == 'odd' %}
       {% assign class = '' %}
