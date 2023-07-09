@@ -9,13 +9,13 @@ permalink: /enterate/
   <div class="container">
     <div class="row">
       {% for post in site.posts reversed %}
+      {% if post.categories contains 'enterate' %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
       {% if thecycle == 'odd' %}
       {% assign class = '' %}
       {% else %}
       {% assign class = 'article-right' %}
       {% endif %}
-      {% unless categories contains 'enterate' %}
       <div class="col-12 mb-100">
        <article data-file="{{ post.url | prepend: site.baseurl }}" data-target="article" class="article-full-width {{class}}">
          <div class="post-image">
@@ -31,7 +31,7 @@ permalink: /enterate/
          </div>
         </article>
       </div>
-      {% endunless %}
+      {% endif %}
       {% endfor %}
     </div>
   </div>
