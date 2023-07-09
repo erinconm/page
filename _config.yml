@@ -174,7 +174,7 @@ prose:
       - name: description
         field:
           element: text
-          label: Ingresa el título la publicación
+          label: Ingresa la descripción de la publicación
           type: text
       - name: featured
         field:
