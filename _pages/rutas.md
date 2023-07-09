@@ -8,7 +8,14 @@ permalink: /rutas/
 <section class="section">
   <div class="container">
     <div class="row">
-      {% for post in site.rutas reversed %}
+      {% for post in site.posts reversed %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% if thecycle == 'odd' %}
+      {% assign class = '' %}
+      {% else %}
+      {% assign class = 'article-right' %}
+      {% endif %}
+      {% unless categories contains 'ruta' %}
       <div class="col-12 mb-100">
         <article data-file="{{ post.url | prepend: site.baseurl }}" data-target="article" class="article-full-width {{class}}">
           <div class="post-image">
@@ -16,15 +23,16 @@ permalink: /rutas/
           </div>
           <div class="post-content">
             <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
-              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{post.date | date: '%b %d, %Y'}}</li>
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{post.date | date: '%d %b, %Y'}}</li>
               <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta"></span> read</li>
             </ul>
             <h4 class="mb-4"><a href="{{ post.url | prepend: site.baseurl }}" class="text-dark">{{post.title}}</a></h4>
             <p class="mb-0 post-summary">{{ post.content | strip_html | truncatewords: 35 }}</p>
-            <a class="btn btn-transparent mb-4" href="{{ post.url | prepend: site.baseurl }}">Continue...</a>
+            <a class="btn btn-transparent mb-4" href="{{ post.url | prepend: site.baseurl }}">Ver más...</a>
           </div>
         </article>
       </div>
+      {% endunless %}
       {% endfor %}
     </div>
   </div>

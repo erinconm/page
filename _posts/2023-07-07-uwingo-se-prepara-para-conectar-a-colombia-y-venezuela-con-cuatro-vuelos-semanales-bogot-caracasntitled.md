@@ -13,6 +13,7 @@ description: >-
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/wingo.png
 ---
+
 Wingo, una de las compañías aéreas más importantes de Colombia, ha anunciado su intención de expandirse hacia nuevos destinos nacionales y de comenzar a operar en Venezuela.
 
 Según Eduardo Lombana, CEO de Wingo, la aerolínea llegará a Venezuela con cuatro vuelos semanales y espera poder aumentar la frecuencia a diaria en un futuro cercano. Además, Lombana destac,ó en entrevista con el Diario La República, que Wingo está buscando nuevos destinos nacionales en Colombia para ofrecer servicios de baja tarifa, adaptados a las necesidades actuales de los viajeros.

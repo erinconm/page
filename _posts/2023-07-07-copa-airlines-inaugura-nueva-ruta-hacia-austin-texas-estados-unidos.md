@@ -9,6 +9,7 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Austin.jpg
 description: 'COPA AIRLINES INAUGURA NUEVA RUTA HACIA AUSTIN, TEXAS, ESTADOS UNIDOS'
 ---
+
 - Copa Airlines inicia operaciones en la capital texana con cuatro frecuencias semanales los lunes, miércoles, jueves, y sábados convirtiéndose así en su destino N°15 en Estados Unidos
 - Con esta nueva ruta, Austin se convierte en la primera ciudad de la Aerolínea en el estado de Texas en conectar con el Hub de las Américas® en Panamá
 

@@ -12,6 +12,7 @@ description: >-
   artificial
 image: 'https://www.cronista.com/files/image/499/499650/63a9cd8e47df1.jpg'
 ---
+
 Booking.com ha anunciado el lanzamiento, en versión beta, de su nuevo Planificador de Viajes con IA. A partir del 28 de junio estará disponible en la aplicación de un grupo de viajeros estadounidenses Genius que han sido específicamente seleccionados.
 
 El Planificador de Viajes con IA ha sido construido, en primer lugar, sobre la base de los actuales modelos de aprendizaje automático de Booking.com que recomiendan destinos y opciones de alojamiento a millones de viajeros en la plataforma cada día.
