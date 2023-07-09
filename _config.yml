@@ -8,7 +8,7 @@ title: Boarding Pass
 logo: /assets/images/logo-bp.jpg
 logo-small: /assets/images/boton-bp.jpg
 description: # Add your awesome description
-copyright: Copyright 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
+copyright: Copyright 2023 Boarding Pass
 # Preloader
 preloader: true # To disable preloader change value to false
 
@@ -56,26 +56,27 @@ hero:
 #-------------------------------
 # Author Settings
 author:
-  name: Jhon Abraham
+  name: Boarding Pass
 
 #-------------------------------
 # Contact Info
 contact:
   email: contacto@boardingpass.network
-  phone: +90 000 333 22
+  phone: 
   address:
     city: Caracas
-    street: 6 rip carl Avenue CA 90733
+    street: 
 
 # Contact Form
 contact-form: contacto@boardingpass.network
 
 # Social links
 social:
+  - { icon: "ti-instagram", link: "https://instagram.com/tuboarding" }
+  - { icon: "ti-twitter-alt", link: "#tuboarding" }
   - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-twitter-alt", link: "#" }
   - { icon: "ti-linkedin", link: "#" }
-  - { icon: "ti-github", link: "#" }
+  - { icon: "ti-github", link: "#boardingpassblogve" }
 
 #-------------------------------
 # Comment Section (Disqus)
