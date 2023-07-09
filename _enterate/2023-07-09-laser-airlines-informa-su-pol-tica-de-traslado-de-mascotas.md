@@ -3,11 +3,10 @@ layout: post
 date: '2023-07-09 09:41 -0400'
 featured: true
 categories: enterate
-published: false
+published: true
 title: Laser Airlines informa su política de traslado de mascotas
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Pets.jpeg
-description: ''
 ---
 Según un comunicado a usuarios la linea aérea [**Laser Airlines**](https://www.laserairlines.com/) ha indicado que el servicio de traslado de mascotas (perros y gatos) aplica única y exclusivamente para los denominados lazarillos y apoyo emocional en cabina de pasajeros.
 
