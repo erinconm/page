@@ -28,7 +28,7 @@ layout: default
               {% endfor %}
               <h4 class="title-border"><a class="text-dark" href="{{ post.url | relative_url }}">{{post.title}}</a></h4>
               <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
-              <a href="{{ post.url | relative_url }}" class="btn btn-transparent">read more</a>
+              <a href="{{ post.url | relative_url }}" class="btn btn-transparent">Ver más...</a>
             </article>
           </div>
           {% endfor %}

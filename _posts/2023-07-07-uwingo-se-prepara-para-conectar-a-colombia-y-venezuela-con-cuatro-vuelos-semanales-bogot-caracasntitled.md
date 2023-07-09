@@ -3,6 +3,7 @@ layout: post
 date: '2023-07-07 12:07 -0400'
 featured: true
 categories: ruta
+author: Edgar Rincón
 published: true
 title: >-
   Wingo se prepara para conectar a Colombia y Venezuela con cuatro vuelos

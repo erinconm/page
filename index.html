@@ -24,7 +24,7 @@ layout: default
               <a class="d-block mb-3 text-white text-uppercase" href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
               {% endfor %}
               <h4 class="card-title mb-4"><a class="text-white" href="{{ post.url | relative_url }}">{{post.title}}</a></h4>
-              <a class="btn btn-outline-light" href="{{ post.url | relative_url }}">read more</a>
+              <a class="btn btn-outline-light" href="{{ post.url | relative_url }}">Ver más...</a>
             </div>
           </div>
         </article>
@@ -56,7 +56,7 @@ layout: default
           {% endfor %}
           <h4 class="title-border"><a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h4>
           <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-transparent">read more</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-transparent">Ver más...</a>
         </article>
       </div>
 			{% endfor %}
@@ -84,10 +84,10 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-6 align-self-end">
-        <h1 class="mb-0">Welcome</h1>
-        <h2 class="mb-100 title-border-lg">to <i>{{site.author.name}} Blog</i></h2>
+        <h1 class="mb-0">Sean bienvenidos</h1>
+        <h2 class="mb-100 title-border-lg">a <i>Boarding Pass</i></h2>
         <p class="mb-80 mr-5">{{site.hero.hero-subtitle}}</p>
-        <span class="font-secondary text-dark mr-3 mr-sm-5">Follow</span>
+        <span class="font-secondary text-dark mr-3 mr-sm-5">Seguir</span>
         <ul class="list-inline d-inline-block mb-5">
           {% for social in site.social %}
           <li class="list-inline-item mx-3"><a href="{{ social.link }}" class="text-dark"><i class="{{ social.icon }}"></i></a></li>
@@ -121,12 +121,12 @@ layout: default
           </div>
           <div class="post-content">
             <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
-              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{post.date | date: '%b %d, %Y'}}</li>
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{post.date | date: '%d %b, %Y'}}</li>
               <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta"></span> read</li>
             </ul>
             <h4 class="mb-4"><a href="{{ post.url | prepend: site.baseurl }}" class="text-dark">{{post.title}}</a></h4>
             <p class="mb-0 post-summary">{{ post.content | strip_html | truncatewords: 35 }}</p>
-            <a class="btn btn-transparent mb-4" href="{{ post.url | prepend: site.baseurl }}">Continue...</a>
+            <a class="btn btn-transparent mb-4" href="{{ post.url | prepend: site.baseurl }}">Continuar...</a>
           </div>
         </article>
       </div>

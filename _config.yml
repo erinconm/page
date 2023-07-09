@@ -187,11 +187,24 @@ prose:
           element: text
           label: Indica la ruta de la imagen de la publicación
           value: ""
+      - name: author
+        field:
+          element: select
+          label: Selecciona el autor
+          help: Puedes seleccionar sólo un autor
+          options:
+            - name: 'Edgar Ricón'
+              value: 'Edgar Rincón'
+            - name: 'Ana Iriza'
+              value: 'Ana Iriza'
+            - name: 'Alexandra Castillo'
+              value: 'Alexandra Castillo'
+          alterable: false      
       - name: categories
         field:
           element: select
           label: Selecciona la categoría de la publicación
-          help: Puedes escoger sólo una categoría
+          help: Puedes seleccionar sólo una categoría
           options:
             - name: 'Destinos'
               value: 'destino'
