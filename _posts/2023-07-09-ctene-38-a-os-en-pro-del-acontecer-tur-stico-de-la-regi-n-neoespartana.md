@@ -1,10 +1,10 @@
 ---
 layout: post
 date: '2023-07-09 21:24 -0400'
-featured: false
+featured: true
 author: Edgar Rincón
-categories: enterate
-published: false
+categories: opinion
+published: true
 title: 'CTENE: 38 años en pro del acontecer turístico de la región neoespartana'
 description: 'CTENE: 38 años en pro del acontecer turístico de la región neoespartana'
 image: >-
