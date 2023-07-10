@@ -4,7 +4,7 @@ date: '2023-07-09 21:27 -0400'
 featured: true
 author: Edgar Rincón
 categories: destino
-published: false
+published: true
 title: Estelar Airlines reanuda vuelos directos entre Caracas y Santiago de Chile
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Estelar.jpg
